@@ -1,0 +1,315 @@
+body {
+  font-family: 'Krub',sans-serif;
+  margin: 0; }
+
+h1, h2, h3 {
+  margin: 0px; }
+
+.logo {
+  margin-top: 10px;
+  height: 150px; }
+
+/* nav lenguage______________________________________*/
+.leng {
+  font-family: Hind Madurai;
+  font-weight: bold;
+  font-size: 25px; }
+
+.nav_link {
+  margin: 0 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: color .2s linear; }
+
+.nav_link:hover {
+  color: #B0BB5B; }
+
+/* NAV MENU __________________________________________*/
+.menu {
+  margin-top: 10px;
+  margin-left: 25px;
+  font-family: Hind Madurai;
+  font-weight: 500;
+  font-size: 25px; }
+
+.nav_link_1 {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 28px;
+  color: #fff;
+  text-decoration: none;
+  border-top: 2px solid #fff;
+  border-bottom: 3px solid #fff;
+  transition: color .2s linear; }
+
+.nav_link_1:hover {
+  color: #B0BB5B;
+  text-decoration: none;
+  border-top: 3px solid #B0BB5B;
+  border-bottom: 3px solid #B0BB5B; }
+
+.intro {
+  background: url("../img/img.jpg") no-repeat;
+  background-size: cover; }
+
+.intro_inner {
+  margin: 25px auto;
+  padding: 10px 10px;
+  height: 100%;
+  color: white;
+  background: rgba(28, 39, 45, 0.6);
+  border-radius: 40px; }
+
+.intro_title {
+  font-family: Livvic;
+  font-weight: 600;
+  font-size: 85px;
+  color: #E5E5E5; }
+
+.intro_description {
+  font-family: Livvic;
+  font-weight: 500;
+  font-size: 26px; }
+
+.section {
+  background: url("../img/img1.jpg") center no-repeat;
+  background-size: cover; }
+  .section_inner {
+    height: 100%;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 40px; }
+    .section_inner_header {
+      margin-top: 10px;
+      margin-left: 5px; }
+      .section_inner_header_greetings_title {
+        font-family: Krub;
+        font-weight: bold;
+        font-size: 50px;
+        color: white; }
+      .section_inner_header_greetings_subtitle {
+        font-family: Krub;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 0px;
+        color: white; }
+      .section_inner_header_signin {
+        margin-top: 10px; }
+        .section_inner_header_signin_text {
+          color: white;
+          font-family: Krub;
+          font-weight: 500;
+          font-size: 20px;
+          transition: color .2s linear;
+          border-bottom: 2px solid white; }
+        .section_inner_header_signin_text:hover {
+          text-decoration: none;
+          border-bottom: 2px solid #B0BB5B;
+          color: #B0BB5B; }
+    .section_inner_body {
+      margin-top: 18px;
+      margin-left: 0px; }
+      .section_inner_body_form {
+        margin-top: 10px; }
+        .section_inner_body_form_title {
+          margin-left: 5px;
+          font-family: Krub;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          color: white; }
+        .section_inner_body_form_input_1 {
+          width: 58%;
+          height: 48px;
+          padding-left: 6px;
+          font-family: Krub;
+          font-style: normal;
+          font-weight: 200;
+          font-size: 20px;
+          background: #DFDFDF;
+          border: 2px solid #A5A5A5;
+          border-radius: 15px; }
+      .section_inner_body_smallforms {
+        margin-top: 10px;
+        margin-bottom: 15px; }
+        .section_inner_body_smallforms_title {
+          margin-left: 5px;
+          font-family: Krub;
+          font-weight: 600;
+          font-size: 20px;
+          color: white; }
+        .section_inner_body_smallforms_input_1 {
+          width: 100%;
+          height: 48px;
+          padding-left: 6px;
+          font-family: Krub;
+          font-style: normal;
+          font-weight: 200;
+          font-size: 20px;
+          background: #DFDFDF;
+          border: 2px solid #A5A5A5;
+          border-radius: 15px; }
+      .section_inner_body_button {
+        margin-left: 13px;
+        margin-top: 15px;
+        width: 60%;
+        height: 48px;
+        background: #B0BB5B;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        cursor: pointer;
+        transition: color .2s linear; }
+        .section_inner_body_button_text {
+          font-size: 20px;
+          font-family: Krub;
+          font-style: normal;
+          font-weight: 600;
+          color: black;
+          text-decoration: none; }
+      .section_inner_body_button:hover {
+        background: #8b9254; }
+      .section_inner_body_p {
+        margin-top: 25px;
+        margin-left: 10px;
+        font-size: 20px; }
+        .section_inner_body_p_input {
+          color: white;
+          width: 10%;
+          height: 20px; }
+
+.section2 {
+  background: url("../img/img2.jpg") center no-repeat;
+  background-size: cover; }
+  .section2_inner {
+    height: 100%;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 40px;
+    padding-bottom: 20px; }
+    .section2_inner_header {
+      padding-top: 30px; }
+      .section2_inner_header_title {
+        font-family: Krub;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        color: white;
+        text-align: center; }
+      .section2_inner_header_subtitle {
+        font-family: Krub;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        margin-top: 0px;
+        color: white;
+        text-align: center; }
+    .section2_inner_body {
+      padding-top: 15px;
+      font-family: Krub;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 33px;
+      color: white;
+      margin-top: 10px; }
+      .section2_inner_body_byname_cheker {
+        margin-left: 5px; }
+        .section2_inner_body_byname_cheker_1 {
+          width: 25px;
+          height: 25px; }
+      .section2_inner_body_byname_input {
+        width: 40%;
+        height: 60px;
+        padding-left: 10px;
+        color: black;
+        background: rgba(196, 196, 196, 0.74);
+        border: 3px solid rgba(0, 0, 0, 0.25);
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-family: Krub;
+        font-weight: 200;
+        font-size: 23px; }
+      .section2_inner_body_byphoto {
+        margin-left: 10px;
+        margin-top: 15px; }
+        .section2_inner_body_byphoto_cheker {
+          margin-bottom: 3px; }
+          .section2_inner_body_byphoto_cheker_1 {
+            width: 25px;
+            height: 25px; }
+        .section2_inner_body_byphoto_button {
+          margin-left: 5px;
+          margin-top: 10px;
+          margin-right: 20px;
+          width: 40%;
+          height: 60px;
+          background: rgba(50, 154, 237, 0.5);
+          border: 2px solid rgba(0, 0, 0, 0.25);
+          cursor: pointer;
+          border-radius: 15px;
+          transition: color .2s linear; }
+          .section2_inner_body_byphoto_button_text {
+            font-size: 22px;
+            font-family: Krub;
+            font-style: normal;
+            font-weight: light;
+            color: black;
+            text-decoration: none; }
+        .section2_inner_body_byphoto_button:hover {
+          background: rgba(50, 153, 237, 0.192); }
+        .section2_inner_body_byphoto_input {
+          width: 50%;
+          height: 60px;
+          padding-left: 10px;
+          margin-left: 5px;
+          margin-top: 10px;
+          color: black;
+          background: rgba(196, 196, 196, 0.74);
+          border: 3px solid rgba(0, 0, 0, 0.25);
+          box-sizing: border-box;
+          border-radius: 15px;
+          font-family: Krub;
+          font-weight: 200;
+          font-size: 20px; }
+
+@media screen and (max-width: 992px) {
+  .section_inner_body_form_input_1 {
+    width: 78%; }
+  .section_inner_body_smallforms_input_1 {
+    width: 60%; }
+  .section2_inner_header_title {
+    display: flex;
+    justify-content: center; }
+  .section2_inner_header_subtitle {
+    display: flex;
+    justify-content: center; }
+  .section2_inner_body_byphoto_input {
+    width: auto; }
+  .section2_inner_body_byphoto_button {
+    width: auto; }
+  .section2_inner_body_byname_input {
+    width: auto; } }
+
+.or {
+  margin-top: 10px;
+  margin-right: 10px; }
+
+.footer {
+  height: 100%;
+  background-color: #1C272D;
+  display: flex; }
+  .footer_logo {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .footer_logo_img {
+      height: 135px; }
+  .footer_text {
+    font-family: Krub;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    margin-top: 30px; }
+
+.move {
+  margin-left: 100px; }
