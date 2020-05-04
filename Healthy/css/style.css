@@ -297,4 +297,10 @@ h1, h2, h3 {
   .leng {
     margin-top: 8px; }
   .section_inner_body_smallforms {
-    margin-bottom: 0px; } }
+    margin-bottom: 0px; }
+  .section_inner {
+    margin: 5px 10px; }
+  .intro_inner {
+    margin: 5px 10px; }
+  .section2_inner {
+    margin: 5px 10px; } }
