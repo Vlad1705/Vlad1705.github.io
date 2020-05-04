@@ -98,7 +98,7 @@ h1,h2,h3{
     margin: 20px auto;
     background: rgba(0, 0, 0, 0.247);
     border-radius: 40px;
-
+    padding-bottom: 10px;
     &_header{
       margin-top: 10px;
       margin-left: 5px;
@@ -196,22 +196,12 @@ h1,h2,h3{
             }
         }
         &_button{
-          margin-left:13px;
-          &_text{
-              font-size: 20px;
-              font-family: Krub;
-              font-style: normal;
-              font-weight: 600;
-              color: black;
-              text-decoration: none;
-          }
-          margin-top:15px;
+          margin-top:10px;
           width: 60%;
           height: 48px;
 
           background: #B0BB5B;
           border: 1px solid #000000;
-          box-sizing: border-box;
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           border-radius: 15px;
           cursor: pointer;
@@ -220,16 +210,8 @@ h1,h2,h3{
       &_button:hover{
           background: rgb(139, 146, 84);
       }
-      &_p{
-          margin-top: 25px;
-          margin-left: 10px;
-          font-size: 20px;
-          &_input{
-              color:white;
-              width: 10%;
-              height: 20px;
-          }
-      }
+
+      
     } 
   }
 }
@@ -279,14 +261,15 @@ h1,h2,h3{
 
       &_byname{
         &_cheker{
-          margin-left: 5px  ;
+          margin-left: 10px  ;
           &_1{
             width: 25px;
             height: 25px;
           }
         }
         &_input{
-          width: 40%;
+          margin-left:20px;
+          width: 30%;
           height: 60px;
           padding-left: 10px;
           color: black;
@@ -313,26 +296,23 @@ h1,h2,h3{
           }
         }
         &_button{
-          padding-bottom: 10px;
-          margin-left: 5px;
-          &_text{
-              font-size: 22px;
-              font-family: Krub;
-              font-style: normal;
-              font-weight: light;
-              color: black;
-              text-decoration: none;
-          }
+          margin-left: 10px;
+
           margin-top: 10px;
           margin-right: 20px;
-          width: 40%;
+          width: 95%;
           height: 60px;
 
           background: rgba(50, 154, 237, 0.5);
           border: 2px solid rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           cursor: pointer;
           border-radius: 15px;
           transition: color .2s linear;
+
+          font-size: 25px;
+
+
       }
       &_button:hover{
           background: rgba(50, 153, 237, 0.192);
@@ -373,19 +353,19 @@ h1,h2,h3{
     margin-top:10px;
     margin-bottom: 10px;
     &_img{
-      height: 135px;
+      height: 100px;
     }
   }
   &_text{
     font-family: Krub;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 13px;
     color:white;
-    margin-top:30px;
+    margin-top:15px;
     }
   }
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 992px) {    
     .section_inner_body_form_input_1{
       width: 78%;
     }
@@ -425,5 +405,12 @@ h1,h2,h3{
     }
     .section_inner_body_smallforms{
       margin-bottom: 0px;
+    }
+
+    .footer_logo_img{
+
+    }
+    .footer_text{
+
     }
   }
