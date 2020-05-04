@@ -78,7 +78,8 @@ h1, h2, h3 {
     height: 100%;
     margin: 20px auto;
     background: rgba(0, 0, 0, 0.247);
-    border-radius: 40px; }
+    border-radius: 40px;
+    padding-bottom: 10px; }
     .section_inner_header {
       margin-top: 10px;
       margin-left: 5px; }
@@ -150,34 +151,17 @@ h1, h2, h3 {
           border: 2px solid #A5A5A5;
           border-radius: 15px; }
       .section_inner_body_button {
-        margin-left: 13px;
-        margin-top: 15px;
+        margin-top: 10px;
         width: 60%;
         height: 48px;
         background: #B0BB5B;
         border: 1px solid #000000;
-        box-sizing: border-box;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 15px;
         cursor: pointer;
         transition: color .2s linear; }
-        .section_inner_body_button_text {
-          font-size: 20px;
-          font-family: Krub;
-          font-style: normal;
-          font-weight: 600;
-          color: black;
-          text-decoration: none; }
       .section_inner_body_button:hover {
         background: #8b9254; }
-      .section_inner_body_p {
-        margin-top: 25px;
-        margin-left: 10px;
-        font-size: 20px; }
-        .section_inner_body_p_input {
-          color: white;
-          width: 10%;
-          height: 20px; }
 
 .section2 {
   background: url("../img/img2.jpg") center no-repeat;
@@ -214,12 +198,13 @@ h1, h2, h3 {
       color: white;
       margin-top: 10px; }
       .section2_inner_body_byname_cheker {
-        margin-left: 5px; }
+        margin-left: 10px; }
         .section2_inner_body_byname_cheker_1 {
           width: 25px;
           height: 25px; }
       .section2_inner_body_byname_input {
-        width: 40%;
+        margin-left: 20px;
+        width: 30%;
         height: 60px;
         padding-left: 10px;
         color: black;
@@ -239,24 +224,18 @@ h1, h2, h3 {
             width: 25px;
             height: 25px; }
         .section2_inner_body_byphoto_button {
-          padding-bottom: 10px;
-          margin-left: 5px;
+          margin-left: 10px;
           margin-top: 10px;
           margin-right: 20px;
-          width: 40%;
+          width: 95%;
           height: 60px;
           background: rgba(50, 154, 237, 0.5);
           border: 2px solid rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           cursor: pointer;
           border-radius: 15px;
-          transition: color .2s linear; }
-          .section2_inner_body_byphoto_button_text {
-            font-size: 22px;
-            font-family: Krub;
-            font-style: normal;
-            font-weight: light;
-            color: black;
-            text-decoration: none; }
+          transition: color .2s linear;
+          font-size: 25px; }
         .section2_inner_body_byphoto_button:hover {
           background: rgba(50, 153, 237, 0.192); }
         .section2_inner_body_byphoto_input {
@@ -286,13 +265,13 @@ h1, h2, h3 {
     margin-top: 10px;
     margin-bottom: 10px; }
     .footer_logo_img {
-      height: 135px; }
+      height: 100px; }
   .footer_text {
     font-family: Krub;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
-    margin-top: 30px; }
+    margin-top: 15px; }
 
 @media screen and (max-width: 992px) {
   .section_inner_body_form_input_1 {
