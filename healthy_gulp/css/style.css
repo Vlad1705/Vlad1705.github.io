@@ -213,7 +213,7 @@ h1, h2, h3 {
       margin-top: 10px; }
       .section2_inner_body_byname {
         margin-top: 20px;
-        margin-left: 150px; }
+        padding-right: 10%; }
         .section2_inner_body_byname_cheker {
           margin-left: 10px; }
           .section2_inner_body_byname_cheker_1 {
@@ -284,10 +284,14 @@ h1, h2, h3 {
       .section2_inner_body_results {
         margin-top: 30px;
         margin-left: 10px;
-        height: 250px; }
+        height: 100%;
+        font-size: 30px;
+        color: #B0BB5B; }
         .section2_inner_body_results_h {
-          width: 26%;
+          color: white;
+          font-size: 40px;
           border-bottom: 2px solid white;
+          width: 26%;
           margin-bottom: 10px; }
 
 .footer {
@@ -322,7 +326,7 @@ h1, h2, h3 {
   .section2_inner_body_byphoto_button {
     width: auto; }
   .section2_inner_body_byname_input {
-    width: auto; }
+    width: 80%; }
   .nav_link_1 {
     margin-right: 25px; }
   .section_inner_header_signin {
