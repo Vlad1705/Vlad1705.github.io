@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500;700&family=Krub:wght@200;400;500;600;700&family=Livvic:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+
+                            <!-- INTRO -->
+
+<div class="intro ">
+    <div class="container">
+        <div class="row d-flex align-items-center animated fadeInDown">
+            <div class="col-lg-2 d-flex justify-content-center">
+                <img src="img/logo.svg" alt="logotip" class="logo">
+            </div>
+
+            <div class="col-lg-2">
+                <nav class="leng d-flex justify-content-center">
+                    <a class = "nav_link" href="#">ENG</a>
+                    <a class = "nav_link" href="#">UA</a>
+                    <a class = "nav_link" href="#">RU</a>
+                </nav>
+            </div>
+
+            <div class="col-lg-6 ml-auto">
+                <nav class="menu d-flex justify-content-center">
+                    <a class = "nav_link_1" href="#section2">SEARCH</a>
+                    <a class = "nav_link_1" href="#section">ADD</a>
+                    <a class = "nav_link_1" href="#footer">CONTACTS</a>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="row d-flex justify-content-center animated fadeInRight">
+            <div class="col-lg-10 intro_inner">
+                <h1 class = "intro_title">Healthy</h1>
+                <p class = "intro_description">Healthy - it's smart helper for all people who 
+                    want to keep up to date with new
+                    technologies. 
+                    This pretty simple app can resolve many
+                    problems with looking for natural and
+                    harmless foodstuff through the amount of 
+                    nasty things in our daily lives.</p>
+            </div>
+        </div>
+    </div>
+</div>
+                        <!-- \ INTRO -->
+
+
+                                    <!-- SECTION -->
+
+                                 <!-- \SECTION -->
+
+<section id="section2" class="section2">
+    <div class="container">
+        <div class="row ">
+            <div class="section2_inner col-lg-10 animated fadeInRight">
+                <div class="row section2_inner_header ">
+                    <h1 class = "col-lg-12 section2_inner_header_title ">
+                        Search supplement 
+                    </h1>
+                    <h3 class = "col-lg-12 section2_inner_header_subtitle">
+                        Find out and discover some information about supplement
+                    </h3>         
+                </div>
+
+                <div class="row section2_inner_body ">
+                    <div class="col-lg-12 section2_inner_body_byname d-flex">
+                        <!-- <div class="section2_inner_body_byname_cheker ">
+                            <input class = 'section2_inner_body_byname_cheker_1' type="radio" name="a" value="By name">
+                        </div> -->
+                        <form action="" method="GET" class = "forma">
+                            <label for="current_supplement">By name:</label>
+                            <input id="current_supplement" type="text" placeholder="Enter name of product" name="name" class='section2_inner_body_byname_input'>
+                            <input id="current_supplement_submit"type="button" value="Search" class="section2_inner_body_byname_input_button">
+                          </form>
+                        
+                        
+                        
+                    </div>
+
+                    <!-- <div class="section2_inner_body_byphoto">
+                        
+    
+                        <div class="col-lg-12 d-flex">
+                            <div class="section2_inner_body_byphoto_cheker">
+                                <input class = 'section2_inner_body_byphoto_cheker_1' type="radio" name="a" value="By photo">
+                            </div>
+                            
+                            <form enctype="multipart/form-data" method="post" > 
+                                <p >
+                                    <label for="">By photo:</label>
+                                    <input type="file" name="photo" accept="image/*,image/jpeg" class = 'section2_inner_body_byphoto_choose'>
+                                    <input type="submit"  value="Search" class ="section2_inner_body_byphoto_send">
+                                </p>
+                            </form>
+                            
+                        </div>
+                    </div> -->
+
+                    <div class="col-lg-12 section2_inner_body_results">
+                        <h1 class="section2_inner_body_results_h">About</h1>
+                        <div class="supplement-criteria"><span id="supplement-class"></span></div>
+                        <div class="supplement-criteria"><span id="supplement-purpose"></span></div>
+                        <div class="supplement-criteria"><span id="supplement-side-effects"></span></div>
+                    </div>
+
+            </div>
+        </div>    
+    </div> 
+</section>
+
+
+
+<!-- <section id="section" class="section">
+    <div class="container">
+        <div class="row ">
+            <div class="section_inner col-lg-10 animated fadeInLeft">
+
+                
+
+                <div class="row section2_inner_header">
+                    <h1 class = "col-lg-12 section2_inner_header_title ">
+                        Add new supplement
+                    </h1>
+                    <h3 class = "col-lg-12 section2_inner_header_subtitle">
+                        Help us by adding new supplement if it doesn't exist
+                    </h3>         
+                </div>
+
+                
+                <div class="row section_inner_body d-flex j">
+                    <div class="col-lg-10 section_inner_body_form">
+                        <h2 class='section_inner_body_form_title'>Name</h2>
+                        <form class="section_inner_body_form_input">
+                            <input class = "section_inner_body_form_input_1" type="text" >
+                        </form>  
+                    </div>
+                    <div class="col-lg-10 section_inner_body_form">
+                        <h2 class='section_inner_body_form_title'>Alternative name</h2>
+                        <form class="section_inner_body_form_input">
+                            <input class = "section_inner_body_form_input_1" type="text">
+                        </form>  
+                    </div>
+
+                    <div class="col-lg-10 section_inner_body_form">
+                        <h2 class='section_inner_body_form_title'>E-code</h2>
+                        <form class="section_inner_body_form_input">
+                            <input class = "section_inner_body_form_input_1" type="text">
+                        </form>  
+                    </div>
+
+
+                    <div class="col-lg-10 section_inner_body_checkbox">
+                        <input id = "cheknature" class = "section_inner_body_checkbox_in" type="checkbox">
+                        <label for="cheknature" class = "section_inner_body_checkbox_title">Naturalness</label>
+                    </div>
+
+                    <div class="col-lg-6 section_inner_body_smallforms">
+                        <h3 class='section_inner_body_smallforms_title'>Purpose</h3>
+                        <div class="section_inner_body_smallforms_input">
+                            <select class = "section_inner_body_smallforms_input_1" id ="supplement-purpose" name="supplement-purpose" >
+                                <option>-------</option>
+                            </select>
+                        </div>  
+                    </div>
+                    
+                    <div class="col-lg-6"></div>
+
+
+                    <div class="col-lg-6 section_inner_body_smallforms">
+                        <h3 class='section_inner_body_smallforms_title'>Side effects</h3>
+                        <div class="section_inner_body_smallforms_input">
+                            <select class = "section_inner_body_smallforms_input_1" id ="supplement-side-effects" name="supplement-side-effects" >
+                                <option>-------</option>
+                            </select>
+                        </div>  
+                    </div>
+                    <div class="col-lg-6"></div>
+
+                    <div class="col-lg-6 section_inner_body_smallforms">
+                        <h3 class='section_inner_body_smallforms_title'>Class</h3>
+                        <div class="section_inner_body_smallforms_input">
+                            <select class = "section_inner_body_smallforms_input_1" id ="supplement-class" name="supplement-class" >
+                                <option>-------</option>
+                                <option value="healthy">Healthy</option>
+                                <option value="neutral">Neutral</option>
+                                <option value="harmful">Harmful</option>
+                                <option value="unsafe">Unsafe</option>
+                                <option value="tasty">Tasty</option>
+                            </select>
+                        </div>  
+                    </div>
+                    <div class="col-lg-6"></div>
+
+                    <div class="col-lg-6">
+						<input type="submit" value="Add supplement" class=" section_inner_body_button">
+					</div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+    </div> 
+</section> -->
+
+<footer id = 'footer' class = 'footer'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <div class="row">
+                    <div class="footer_logo col-lg-2">
+                        <img src="img/logo.svg" alt="logotip" class = 'footer_logo_img'>
+                    </div>
+                    <div class="footer_text col-lg-10">
+                            Made by: Vladyslav Pasemko,Oleg Matskula,Anastasia Zhuk,Olga Burtsio <br>
+                            © 2020 Healthy All rights reserved. Ukraine. Lviv, Kyiv <br>
+                            Designed and created by: vpasemko@gmail.com <br>
+                            Contacts: +38 (050) 518 48 09 <br>
+                      
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div> 
+</footer>
+
+
+
+
+
+</body>
+<script src="js/supplements.js"></script>
+</html>
+
+
