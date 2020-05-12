@@ -280,7 +280,7 @@ h1,h2,h3{
 
       &_byname{
         margin-top: 20px;
-        margin-left: 150px;
+        padding-right: 10%;
         &_cheker{
           margin-left: 10px  ;
           &_1{
@@ -372,10 +372,14 @@ h1,h2,h3{
       &_results{
         margin-top: 30px;
         margin-left: 10px;
-        height:250px;
+        height:100%;
+        font-size: 30px;
+        color: #B0BB5B;
         &_h{
+          color: white;
+          font-size: 40px;
+          border-bottom: 2px solid white ;
           width: 26%;
-          border-bottom: 2px solid white;
           margin-bottom: 10px;
         }
       }
@@ -433,8 +437,9 @@ h1,h2,h3{
       width: auto;
     }
     .section2_inner_body_byname_input{
-      width: auto;
+      width: 80%;
     }
+
     .nav_link_1{
       margin-right: 25px;
     }
