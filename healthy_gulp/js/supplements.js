@@ -37,7 +37,8 @@ function showDetails(supplement) {
     for (let i = 0; i< data.length; i++) {
         side_effects.push(data[i]['name'])
     }
-    document.getElementById('supplement-class').innerText = ('About - ' + class_name)
+    document.getElementById('section2_inner_body_results_h').innerText = ('About supplement: ')
+    document.getElementById('supplement-class').innerText = ('Class - ' + class_name)
     document.getElementById('supplement-purpose').innerText = ("Purpose - " + purpose_name)
     document.getElementById('supplement-side-effects').innerText = ("Side-effects: " + side_effects.join(', '))
 }
